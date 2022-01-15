@@ -1,2 +1,2 @@
-# sprsd.github.io
-This is static website of sprsd
+# My Website
+This is static website of S Prasad
