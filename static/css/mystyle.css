@@ -22,10 +22,26 @@
     height: 18rem;
     overflow: hidden;
 }
-.banner-text-left{
-    position: relative;
-    left: 12%;
+
+@media screen and (min-width:0px) and (max-width: 576px){
+    .banner-text-left {
+        position: relative;
+        left: 5%;
+    }
 }
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .banner-text-left {
+        position: relative;
+        left: 8%;
+    }
+}
+  @media screen and (min-width:768px){
+    .banner-text-left {
+        position: relative;
+        left: 12%;
+    }
+}
+
 .mybanner h1{
     font-family: myfont-bold;
 }
